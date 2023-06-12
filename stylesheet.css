@@ -1,0 +1,67 @@
+body{
+    background-color:#9AC5F4;
+    margin:0;
+    position:relative;
+}
+.heading{
+    color:white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0;
+    top:0;
+}
+
+.form-content{
+    background-color:rgb(230,247,256);
+    height: 650px;
+    width:85vw;
+    margin: 40px;
+    position: absolute;
+    padding:10px;
+    border: solid 1px black;
+
+}
+.top{
+    background-color: #4F709C;  
+}
+.primary label{
+    margin-left: 10px;
+  
+}
+.primary input{
+    display: block;
+    margin: 20px;
+    padding:7px;
+}
+.title{
+     margin-left: 10px;
+     display: block;
+}
+.gender input{
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+.email-pass label{
+    margin-left: 10px;
+}
+.email-pass input{
+    display: block;
+    margin: 20px;
+    padding:7px;
+}
+input :hover{
+    border: solid 1px black;
+}
+.last{
+    margin:20px;
+    padding:7px;
+}
+button{
+    background-color: #0079FF;
+    border: solid 1px black;
+    color:white;
+    padding:5px;
+    margin-left: 100px;
+}

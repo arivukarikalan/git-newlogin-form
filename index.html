@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER-FORM</title>
+    <link rel="icon" type="image" href="favicon.png">
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+<body>
+    <div class="top">
+        <h1 class="heading">join us !</h1>
+    </div>
+    
+    <div class="form-content">
+        <div class="primary">
+          <form action="" method="post" onsubmit="return validate()">
+          <label for="name">Name :</label>
+          <input type="text" id="name" placeholder="eg: Arivazhagan" required>
+          
+          <label for="register-id">Register Id:</label>
+          <input type="number" id="register-id" placeholder="eg: 4568" required>
+        </form>
+
+          <label for="education">Education:</label>
+          <input type="text" id="education" placeholder="eg: BSC.CS"  required>
+        </div>
+        <div class="gender">
+            <label for="Gender" class="title"> Select Gender:</label>
+          <input type="radio" id="html" name="gender" >
+          <label for="male">Male</label><br>
+          <input type="radio" id="css" name="gender">
+          <label for="female">Female</label><br>
+          <input type="radio" id="javascript" name="gender">
+          <label for="others">others</label>
+          </div>
+          <div class="email-pass">
+            <label for="email">Email :</label>
+          <input type="email" id="email" placeholder="eg: Arivu@7gmail.com" required>
+          <label for="password"> Enter Password :</label>
+          <input type="password" id="password"  required>
+      
+          <label for="password"> Retype Password :</label>
+        </div>
+          <input type="password" id="password"  class="last" required>
+            
+          <a href="index2.html"><button>submit</button></a>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
